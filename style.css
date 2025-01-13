@@ -1,0 +1,141 @@
+
+h1{
+    color:aliceblue;
+    font:500;
+    font-style: italic;
+}
+h2{
+    color:brown;
+    front:150;
+    font-style: initial;
+}
+h5{
+    color:black;
+    font:100;
+    font-style: normal;
+}
+h3{
+    color:green;
+    font:200;
+    font-style: inherit;
+}
+h4{
+    font-weight:bolder;
+    text-decoration:underline;
+    text-align: left;
+    color:blue;
+    font:200;
+    font-style: inherit;
+}
+h6{
+    text-decoration:line-through;
+}
+button{
+    color: blue;
+    background-color:whitesmoke;
+}
+p{
+    line-height: 2;
+    display:inline-block;
+}
+#createyouraccount{
+    color:black;
+}
+button:active {
+    background-color:red;
+    box-shadow:rgb(163, 42, 42);
+}
+div{
+    display:inline-block;
+    margin: 50px;
+    height:200px;
+    width:200px;
+    border:black;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.circle{
+    width:300px;
+    height:300px;
+    background-color:rgba(80, 80, 30, 0.47);
+    transition: 3s;
+}
+.circle:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+body{
+    font-family: roboto,sans-serif;
+}
+
+@media (max-width:800px){
+    h1{
+        font-size:50px;
+        color:purple;
+    }
+}
+menu{
+    width:max-content;
+    background-color:black;
+}
+#logo{
+    color:#fff;
+    font-size:30px;
+    letter-spacing:4px;
+    padding:15px;
+    background-color: #000;
+}
+.menu a{
+    text-decoration: none:color:#fff;
+    color:#fff;
+    font: size 18px;
+    letter-spacing:2px;
+    display:list-item;
+    padding:20px;
+    border-top:1px solid black;
+    border-bottom:1px solid black
+}
+.menu a:hover{
+    background-color: red;]
+    transition:0.5%;
+    letter-spacing:4px;
+    text-transform:uppercase;
+}
+.body{
+    width:600px;
+    margin-left to right: auto;
+}
+nav #icon{
+    color:white;
+    font-size:30px;
+}
+.hamburger{
+    display:none;
+    cursor:pointer;
+}
+@media(max-width:768px){
+    .hamburger{
+    display:block;
+    }
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+.image{
+    width:100%;
+    height: 100%;
+    
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+body{
+    background: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
